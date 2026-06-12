@@ -1,0 +1,64 @@
+name: 🐛 Bug 反馈
+description: app 哪里不对劲就发这个
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: page
+    attributes:
+      label: 在哪个页面
+      options:
+        - 首页（健康）
+        - 睡眠详情
+        - 体重
+        - 喝水
+        - 经期
+        - 健康记忆
+        - 伴侣绑定 / 邀请
+        - 设置
+        - 登录
+        - 其它 / 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 你做了什么操作，然后看到了什么。可以直接拖截图进来（敏感数字打码）。
+      placeholder: 例：点开睡眠详情，昨晚明明睡了，显示 0 分钟
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望看到什么
+      placeholder: 例：应该显示昨晚的睡眠时长
+    validations:
+      required: false
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 严重程度
+      options:
+        - 闪退 / 完全用不了
+        - 数据不对（显示错误的数字）
+        - 界面问题（错位 / 难看 / 文案错）
+        - 小毛病
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: 大概什么时候发生的
+      placeholder: 例：6月13日 晚上11点左右
+    validations:
+      required: false
+  - type: dropdown
+    id: who
+    attributes:
+      label: 谁的设备
+      options:
+        - 我（linyou）
+        - 她
+    validations:
+      required: false

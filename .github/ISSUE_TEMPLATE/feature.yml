@@ -1,0 +1,19 @@
+name: 💡 功能建议
+description: 想要什么功能 / 哪里可以做得更好
+title: "[想要] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想要什么
+      placeholder: 例：希望首页能看到她今天走了多少步
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么想要（可选）
+      placeholder: 例：每天都想知道她有没有出门走走
+    validations:
+      required: false
