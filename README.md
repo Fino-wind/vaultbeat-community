@@ -14,3 +14,9 @@ Tether 情侣健康共享 app 的公开反馈仓库。发现 bug、有想要的�
 
 - 这是公开仓库，**不要贴健康数据明文、邀请码、账号信息**。截图里有敏感数字就打码。
 - 闪退请顺手记一下当时的时间，方便对日志。
+
+## 相关链接
+
+- 📱 App Store：[Tether — AI Health Sync](https://apps.apple.com/us/app/tether-ai-health-sync/id6759241985)
+- 🤖 MCP server（让你自己的 AI agent 读健康数据）：[Fino-wind/tether-mcp](https://github.com/Fino-wind/tether-mcp)
+- 🌐 官网：[tetherme.app](https://tetherme.app) · 常见问题：[tetherme.app/support](https://tetherme.app/support)
