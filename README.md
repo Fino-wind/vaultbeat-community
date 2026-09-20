@@ -2,6 +2,8 @@
 
 Tether 情侣健康共享 app 的公开反馈仓库。发现 bug、有想要的功能，都发在 [Issues](../../issues) 里。
 
+**这里收 iPhone app 本身的问题**（UI、订阅、HealthKit 权限、同步显示）。MCP server 的问题（`vaultbeat-apple-health` 装不上、工具报错、连不上 AI agent）去 [Fino-wind/vaultbeat-apple-health](https://github.com/Fino-wind/vaultbeat-apple-health/issues) 提。
+
 ## 怎么发 bug
 
 点 [New Issue](../../issues/new/choose)，选「🐛 Bug 反馈」，照着模板填。**两分钟就够，不用写得很专业**——说清楚三件事：
